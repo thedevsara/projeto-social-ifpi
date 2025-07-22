@@ -1,0 +1,163 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #222;
+  padding: 24px;
+  line-height: 1.6;
+}
+
+#container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #444;
+}
+
+header p {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Menu de navegação */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 12px 0 24px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+nav ul li a:hover {
+  color: #0056b3;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+input[type="text"],
+textarea,
+input[type="date"] {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Postagens */
+.postagem {
+  border-bottom: 1px solid #eee;
+  padding: 16px 0;
+}
+
+.postagem h3 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.postagem p {
+  margin-bottom: 4px;
+}
+
+.postagem small {
+  color: #777;
+}
+
+.comentarios {
+  margin-top: 10px;
+  padding-left: 16px;
+  border-left: 3px solid #ddd;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Botões */
+.botao-curtir,
+.botao-ver-comentarios,
+.botao-deletar {
+  margin-top: 8px;
+  margin-right: 8px;
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.botao-curtir:hover {
+  background-color: #d0ebff;
+}
+
+.botao-ver-comentarios:hover {
+  background-color: #e9f7ef;
+}
+
+.botao-deletar {
+  background-color: #ffe6e6;
+}
+
+.botao-deletar:hover {
+  background-color: #ffcccc;
+}
+
+/* Rodapé */
+footer {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+}
