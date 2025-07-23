@@ -6,7 +6,7 @@ Projeto desenvolvido como parte da disciplina de Desenvolvimento Web. O **Social
 
 # 📱 Social IFPI
 
-[🔗 Acesse o repositório no GitHub](https://github.com/seu-usuario/socialifpi)
+[[🔗 Acesse o repositório no GitHub](https://github.com/thedevsara/social-ifpi)
 -- tive que criar um novo repositório, pois meu projeto foi perdido.
 
 ---
