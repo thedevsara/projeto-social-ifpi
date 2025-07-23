@@ -4,30 +4,14 @@ Projeto desenvolvido como parte da disciplina de Desenvolvimento Web. O **Social
 
 ---
 
-## 🧩 Funcionalidades
+# 📱 Social IFPI
 
-- ✅ Criar postagens com título, autor, conteúdo e data
-- 💬 Comentar postagens
-- ❤️ Curtir postagens
-- 🗑️ Excluir postagens
-- 🔄 Atualização dinâmica no navegador
-- 🕒 Ordenação por data (mais recente primeiro)
-- 🧠 Backend com Express e persistência em memória (pode ser expandido)
+[🔗 Acesse o repositório no GitHub](https://github.com/seu-usuario/socialifpi)
+-- tive que criar um novo repositório, pois meu projeto foi perdido.
 
 ---
 
-## 🧪 Tecnologias Utilizadas
 
-### Front-end
-- HTML5 + CSS3 (minimalista e responsivo)
-- TypeScript (pode ser usado como JavaScript também)
-- Fetch API para comunicação com o backend
+## 🎥 Vídeo de Apresentação
 
-### Back-end
-- Node.js + Express
-- TypeScript
-- Controle de rotas para postagens, comentários e curtidas
-
-
-### Video de apresentação
-https://youtu.be/q3lzZmJbKIM
+[▶️ Assistir no YouTube](https://youtu.be/q3lzZmJbKIM)
